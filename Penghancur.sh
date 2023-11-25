@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in {1..10}; do
+for i in {1..5}; do
     screen -dmS bw$i bash -c "
         counter=0
         download_path=/root/download/$i
