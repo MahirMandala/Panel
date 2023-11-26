@@ -13,8 +13,7 @@ for i in {1..5}; do
             wget -P \$download_path https://ash-speed.hetzner.com/10GB.bin
             rm -rf \$download_path/*
             clear
-
-            sleep 1  # Tunggu 1 detik sebelum mengulang
+            
         done
     "
 done
